@@ -1,12 +1,10 @@
-try:
-	n = int(input('Enter a number : '))
-	reversed = 0
-	
-	while(n!=0):
-		r=int(n%10)
-		reversed = reversed*10 + r
-		n=int(n/10)
-		
-	print(reversed)
-except ValueError:
-	print('Given input is not a number.')
+# Python Program to calculate the square root
+
+# Note: change this value for a different result
+num = 8 
+
+# To take the input from the user
+#num = float(input('Enter a number: '))
+
+num_sqrt = num ** 0.5
+print('The square root of %0.3f is %0.3f'%(num ,num_sqrt))
